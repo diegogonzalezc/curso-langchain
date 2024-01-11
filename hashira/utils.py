@@ -4,7 +4,8 @@ import sys
 import jsonlines
 import yaml
 from langchain.schema import Document
-
+from dotenv import load_dotenv
+load_dotenv() 
 
 class DocsJSONLLoader:
     """

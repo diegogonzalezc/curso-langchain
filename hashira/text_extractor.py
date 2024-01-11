@@ -8,7 +8,8 @@ import emoji
 import requests
 from termcolor import colored
 from utils import create_dir, load_config, remove_existing_file
-
+from dotenv import load_dotenv
+load_dotenv() 
 
 def preprocess_text(text: str) -> str:
     """
